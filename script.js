@@ -120,8 +120,3 @@ sh.addDevice(new SmartThermostat("LivingRoomThermostat"));
 
 console.log(sh.getDevices());
 
-// Приклад використання асинхронного методу
-sh.offAllDevice(() => {
-  // Цей код виконається після вимкнення всіх пристроїв
-  console.log("All devices are off. Ready for the next action.");
-});
